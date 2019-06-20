@@ -8,7 +8,7 @@ public class Testing_methods {
         
 	newmethod(true, 10000, 200, 8);
 	newmethod(true,800,100,5);
-  
+    newmethod(false,0,0,0);
 	}
 
 	
@@ -22,7 +22,7 @@ public static void newmethod( boolean gameOver, int score, int bonus, int level)
 	
 	
 	else
-		if (gameOver = true) {
+		if (gameOver = false) {
 		System.out.println("you did not complete the level");
 	}
 }
